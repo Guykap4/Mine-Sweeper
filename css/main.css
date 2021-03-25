@@ -1,9 +1,12 @@
 body {
     text-align: center;
-    background-image: url(./img/windowsbg.jpg);
-    background-repeat: no-repeat;
-    background-size: auto 950px;
     font-family: 'Courier New', monospace;
+    background-color: black;
+    background: linear-gradient(0deg, rgba(85, 83, 107, 1) 0%, rgba(0, 24, 37, 1) 100%) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h2 {
@@ -14,7 +17,7 @@ h2 {
     margin-bottom: 40px;
     margin-top: 20px;
     -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .highscore {
@@ -102,7 +105,6 @@ table td.cover {
     text-align: center;
     padding: 4px 4px 0 7px;
     line-height: 1em;
-
 }
 
 .livesCount {
@@ -119,4 +121,26 @@ table td.cover {
     margin-top: 20px;
     border: rgb(136, 113, 39) 2px solid;
     font-family: 'Courier New', monospace;
+}
+
+.helpers {
+    width: 150px;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    top: 130px;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 4px 4px 0 7px;
+    line-height: 1em;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    border: rgb(136, 113, 39) 2px solid;
+    color: white;
+}
+
+.helpers p {
+    padding: 10px;
+    margin: 0%;
+    cursor: pointer;
 }

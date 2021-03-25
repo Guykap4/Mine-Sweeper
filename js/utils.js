@@ -86,8 +86,8 @@ function renderCell(elCell, i, j) {
 }
 
 function getCellByData(i, j) {
-    var cell = document.querySelector(`[data-i="${i}"][data-j="${j}"]`)
-    return cell;
+    var elcell = document.querySelector(`[data-i="${i}"][data-j="${j}"]`)
+    return elcell;
 }
 
 function getRandomInteger(min, max) {

@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    background-image: url(./img/windowsbg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 950px;
+    font-family: 'Courier New', monospace;
+}
+
+h2 {
+    margin: auto;
+    width: 600px;
+    font-size: 70px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.highscore {
+    width: 150px;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 4px 4px 0 7px;
+    line-height: 1em;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    border: rgb(136, 113, 39) 2px solid;
+    color: white;
+}
+
+table {
+    margin: auto;
+    border: linear-gradient(to right, #e0a82f 0%, #2f198f 100%) 2px solid;
+    background: linear-gradient(to right, #e0a82f 0%, #2f198f 100%);
+}
+
+table td {
+    height: 30px;
+    width: 30px;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    background-color: #42396d;
+    color: white;
+}
+
+table td:hover {
+    background-color: lightgray;
+}
+
+table td.cover {
+    border-bottom: 2px solid #7B7B7B;
+    border-left: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #7B7B7B;
+}
+
+.open {
+    border: 2px white;
+}
+
+.interface div {
+    padding: 10px;
+    border: rgb(136, 113, 39) 2px solid;
+    width: 370px;
+    margin: auto;
+    color: white;
+}
+
+.difficulty {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 4px 4px 0 7px;
+    line-height: 1em;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+}
+
+.reset-btn {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    margin-bottom: 0;
+    width: 50px
+}
+
+.reset-btn button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+.stopwatch {
+    font-family: 'Courier New', monospace;
+    font-size: 35px;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    text-align: center;
+    padding: 4px 4px 0 7px;
+    line-height: 1em;
+
+}
+
+.livesCount {
+    color: white;
+    font-family: 'Digital Dismay';
+    font-size: 35px;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    text-align: center;
+    padding: 4px 4px 0 7px;
+    line-height: 1em;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    border: rgb(136, 113, 39) 2px solid;
+    font-family: 'Courier New', monospace;
+}

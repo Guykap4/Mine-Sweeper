@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+</head>
+
+<body onload="init()">
+    <h2>Mine Sweeper</h2>
+
+    <div class="highscore">
+        Easy: <span data-diff="easy">-</span><br />
+        Medium: <span data-diff="medium">-</span><br />
+        Hard: <span data-diff="hard">-</span>
+    </div>
+
+    <div class="interface">
+        <div class="difficulty">
+            <input type="radio" onclick="changeDiff(this)" id="easy" name="contact" value="4">
+            <label for="easy">Easy</label>
+
+            <input type="radio" onclick="changeDiff(this)" id="medium" name="contact" value="8">
+            <label for="medium">Medium</label>
+
+            <input type="radio" onclick="changeDiff(this)" id="hard" name="contact" value="12">
+            <label for="hard">Hard</label>
+        </div>
+        <div class="stopwatch">
+            000
+        </div>
+        <div class="reset-btn">
+            <button onclick="resetGame()">🥵</button>
+        </div>
+    </div>
+    <div class="tablecontainer">
+        <table oncontextmenu="return false;"></table>
+    </div>
+    <div class="livesCount">
+        LIVES LEFT: 2
+    </div>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
